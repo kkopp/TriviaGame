@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+
+
 // Global Variables
 
 
@@ -47,6 +49,25 @@ var triviaQuestions = [{
 }]
 
 // Game Functions
+
+
+
+
+// when you click the start button, it hides itself //
+$("button").on("click", function() {
+    $(this).hide();
+
+// start timer on button click, show on page //
+var timer = 15;
+var countdownTimer = setInterval(function() {
+    timer--;
+    $(".timer").html(timer);
+    if (timer <= 0)
+        clearInterval(countdownTimer);
+}, 1000);
+
+});
+
 
 
 
