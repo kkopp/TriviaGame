@@ -1,6 +1,97 @@
-button {
-    width: 100px;
-    height: 50px;
-    columns: grey;
+body {
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+    background-image: url("../images/swirl_pattern.png")
+}
+
+#startImage {
+    width: 200px;
+    height: 200px;
+}
+#startbtn {
+    width: 200px;
+    height: 100px;
+    font-family: 'Hind', sans-serif;
+    font-size: 30px;
+    columns: #585E64;
     color: black;
+    border-radius: 20px;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+#resetbtn {
+    width: 300px;
+    height: 100px;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    columns: #585E64;
+    color: black;
+    margin: 30px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Bungee', cursive;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+}
+
+#timer {
+    font-family: 'Hind', sans-serif;
+    font-size: 80px;
+}
+
+#quizQuestion {
+    font-family: 'Hind', sans-serif;
+    font-size: 60px;
+}
+
+#choices {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+    color: #585E64;
+    cursor: pointer;
+}
+
+#text {
+    font-family: 'Hind', sans-serif;
+    font-size: 60px;
+}
+
+#correctAnswer {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+}
+
+#facts {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+}
+
+#result {
+    font-family: 'Hind', sans-serif;
+    font-size: 60px;
+}
+
+#correct {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+}
+
+#incorrect {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+}
+
+#unanswered {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
 }

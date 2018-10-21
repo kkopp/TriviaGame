@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Collections of Animals Trivia!</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Hind" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 
@@ -12,33 +13,35 @@
 
 <body>
 
-    <div class="container" id="gameStart">
+<div class="container" id="gameStart">
     <h1>Do You Know Your Collective Animal Nouns?</h1>
-    <h3>Test your skills now!</h3>
-        <button id="startbtn">Start</button>
-    </div>  
+    <h2>Test your skills now!</h2>
+    <img id="startImage" src="assets/images/question.png" alt="question dog" />
+    <br>
+    <button id="startbtn">Start</button>
+</div>  
 
-    <div class="container" id="gamePlay">
-        <button id="startbtn">Start</button>
-        <div id="timer">15</div>
+<div class="container" id="game">
+    <div class="container" id="questions">
+        <div id="timer"></div>
         <div id="quizQuestion"></div>
         <div id="choices"></div>
     </div>
 
-    <div class="container" id="gameAnswers">
+    <div class="container" id="answers">
         <div id="text"></div>
         <div id="correctAnswer"></div>
         <div id="image"></div>
         <div id="facts"></div>
     </div>
 
-    <div class="container" id="endResults">
+    <div class="container" id="results">
         <div id="result"></div>
         <div id="correct"></div>
         <div id="incorrect"></div>
         <div id="unanswered"></div>
         <button id="resetbtn">Want to Play Again?</button>
     </div>
-
+</div>
 </body>
 </html>
